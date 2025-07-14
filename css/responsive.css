@@ -1,0 +1,211 @@
+/* Responsive Styles */
+
+/* For screens smaller than 992px (typical for tablets and smaller desktops) */
+@media (max-width: 991px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .search-bar {
+        width: 80%; /* Adjust search bar width */
+        margin-top: 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 2.8em;
+    }
+
+    .hero-section p {
+        font-size: 1.1em;
+    }
+
+    .category-grid,
+    .steps-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Allow items to shrink more */
+    }
+
+    /* Services Listing Page */
+    .services-listing-page .services-content {
+        flex-direction: column; /* Stack filters above services */
+    }
+
+    .filters-sidebar {
+        flex: auto; /* Take full width */
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    /* Profile Page */
+    .profile-page .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info h1 {
+        text-align: center;
+    }
+
+    .profile-info p {
+        text-align: center;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+/* For screens smaller than 768px (typical for larger phones and small tablets) */
+@media (max-width: 767px) {
+    .container {
+        width: 95%; /* More width on smaller screens */
+        padding: 15px 0;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .logo a {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        gap: 10px;
+        font-size: 0.9em;
+    }
+
+    .search-bar {
+        width: 90%;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section p {
+        font-size: 1em;
+    }
+
+    .cta-buttons .btn {
+        font-size: 1em;
+        margin: 5px;
+        display: block; /* Stack buttons vertically */
+        width: calc(100% - 20px); /* Full width minus margin */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .category-grid,
+    .steps-grid {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .testimonial-card {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .service-card {
+        margin: 0 auto; /* Center single cards */
+    }
+
+    /* Auth Pages */
+    .auth-container {
+        padding: 30px 20px;
+    }
+
+    .auth-container h2 {
+        font-size: 1.8em;
+    }
+
+    /* Footer */
+    .footer-links ul {
+        flex-direction: column; /* Stack footer links */
+        gap: 10px;
+    }
+
+    .social-media {
+        margin-top: 15px;
+    }
+}
+
+/* For screens smaller than 480px (typical for most phones) */
+@media (max-width: 479px) {
+    header .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav {
+        order: 3; /* Move navigation below search */
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .search-bar {
+        order: 2; /* Move search bar to second position */
+        width: 100%;
+    }
+
+    .logo {
+        order: 1; /* Keep logo at top */
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8em;
+    }
+    .hero-section p {
+        font-size: 0.9em;
+    }
+
+    .service-card img {
+        height: 180px;
+    }
+    .profile-page .profile-header {
+        padding: 20px;
+    }
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+    .profile-info h1 {
+        font-size: 1.8em;
+    }
+    .profile-info p {
+        font-size: 0.9em;
+    }
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}

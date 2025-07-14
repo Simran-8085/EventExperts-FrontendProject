@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Event Experts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Event Experts</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search services...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="services-listing-page">
+            <div class="container">
+                <h1>Explore Our Services</h1>
+                <div class="services-content">
+                    <aside class="filters-sidebar">
+                        <h3>Filters</h3>
+                        <div class="filter-group">
+                            <h4>Category</h4>
+                            <label><input type="checkbox" name="category" value="photographer"> Photographers</label>
+                            <label><input type="checkbox" name="category" value="caterer"> Caterers</label>
+                            <label><input type="checkbox" name="category" value="decorator"> Decorators</label>
+                        </div>
+                        <div class="filter-group">
+                            <h4>Location</h4>
+                            <input type="text" placeholder="Enter Mungaoli Area">
+                        </div>
+                        <div class="filter-group">
+                            <h4>Price Range</h4>
+                            <input type="range" min="0" max="100000" value="50000">
+                            <span>₹0 - ₹1,00,000+</span>
+                        </div>
+                        <div class="filter-group">
+                            <h4>Rating</h4>
+                            <label><input type="radio" name="rating" value="4+"> 4 Stars & Up</label>
+                            <label><input type="radio" name="rating" value="3+"> 3 Stars & Up</label>
+                        </div>
+                        <button class="btn btn-primary apply-filters">Apply Filters</button>
+                    </aside>
+
+                    <div class="services-grid" id="servicesGrid">
+                        <div class="service-card">
+                            <img src="css/assets/images/photography.jpg" alt="Service Provider Name">
+                            <h3>Elite Photography Services</h3>
+                            <p>Capturing your special moments across Bhopal.</p>
+                            <div class="service-meta">
+                                <span>⭐ 4.8</span>
+                                <span>Starts from ₹15,000</span>
+                            </div>
+                            <a href="profile.html?provider=photographer-elite" class="btn btn-small">View Details</a>
+                        </div>
+                        <div class="service-card">
+                            <img src="css/assets/images/caterers.jpg" alt="Service Provider Name">
+                            <h3>Taste Buds Catering</h3>
+                            <p>Delicious food for all events, big or small.</p>
+                            <div class="service-meta">
+                                <span>⭐ 4.5</span>
+                                <span>Starts from ₹1,200/plate</span>
+                            </div>
+                            <a href="profile.html?provider=caterer-tastebuds" class="btn btn-small">View Details</a>
+                        </div>
+                         <div class="service-card">
+                            <img src="css/assets/images/decorators.jpg" alt="Service Provider Name">
+                            <h3>Event Elegance Decorators</h3>
+                            <p>Transforming venues into magical spaces.</p>
+                            <div class="service-meta">
+                                <span>⭐ 4.9</span>
+                                <span>Starts from ₹20,000</span>
+                            </div>
+                            <a href="profile.html?provider=decorator-elegance" class="btn btn-small">View Details</a>
+                        </div>
+                        </div>
+                </div>
+                <div class="pagination">
+                    <a href="#">&laquo; Previous</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Next &raquo;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+            </div>
+            <p>&copy; 2025 Event Experts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/services.js"></script>
+</body>
+</html>
