@@ -36,8 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- Back to Top Button (optional) ---
-    // You'd add a button in your HTML, e.g., <button id="scrollToTopBtn" class="scroll-to-top-btn">↑</button>
+    // --- Back to Top Button  ---
     const scrollToTopBtn = document.getElementById('scrollToTopBtn');
     if (scrollToTopBtn) {
         window.addEventListener('scroll', () => {

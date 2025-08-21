@@ -1,8 +1,8 @@
 /* Global Styles & Resets */
 :root {
-    --primary-color: #c4480e; /* A nice blue */
-    --secondary-color: #8d3024; /* Grey */
-    --accent-color: #28a745; /* Green for success/highlights */
+    --primary-color: #c4480e; 
+    --secondary-color: #8d3024; 
+    --accent-color: #28a745; 
     --light-bg: #f8f9fa;
     --dark-text: #451a1aa6;
     --border-color: #dee2e6;
@@ -21,7 +21,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--dark-text);
-    background-color: var(--light-bg);
+    background-color: var(--cornsilk);
 }
 
 .container {
@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #ec0606; 
 }
 
 ul {
@@ -64,8 +64,8 @@ ul {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #ee7b55;
+    border-color: #ee7b55;
 }
 
 .btn-secondary {
@@ -75,8 +75,8 @@ ul {
 }
 
 .btn-secondary:hover {
-    background-color: #5a6268;
-    border-color: #545b62;
+    background-color: #ee7b55;
+    border-color: #ee7b55
 }
 
 .btn-small {
@@ -174,7 +174,7 @@ section {
 }
 
 section:nth-child(odd) {
-    background-color: var(--light-bg);
+    background-color: var(--cornsilk);
 }
 
 h1, h2, h3 {
@@ -211,7 +211,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(238, 118, 62); /* Overlay for readability */
+    background-color: rgb(227, 122, 73); /* Overlay for readability */
     z-index: 1;
 }
 

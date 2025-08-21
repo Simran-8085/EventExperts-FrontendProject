@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.8,
             price: 15000,
             description: 'Capturing your special moments across Mungaoli with a keen eye for detail and emotion.',
-            imageUrl: 'assets/images/photographer-sample.jpg',
+            imageUrl: 'assets/images/photography.jpg',
             portfolio: ['assets/images/portfolio-1.jpg', 'assets/images/portfolio-2.jpg']
         },
         {
@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.5,
             price: 1200, // Per plate example
             description: 'Delicious and diverse culinary experiences for all events, big or small. From traditional Indian to continental dishes.',
-            imageUrl: 'assets/images/caterer-sample.jpg',
-            portfolio: ['assets/images/catering-1.jpg', 'assets/images/catering-2.jpg']
+            imageUrl: 'assets/images/caterers.jpg',
+            portfolio: ['assets/images/caterers.jpg', 'assets/images/catering-2.jpg']
         },
         {
             id: 'decorator-elegance',
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.9,
             price: 20000,
             description: 'Transforming venues into magical and memorable spaces tailored to your vision and theme.',
-            imageUrl: 'assets/images/decorator-sample.jpg',
+            imageUrl: 'assets/images/decorators.jpg',
             portfolio: ['assets/images/decor-1.jpg', 'assets/images/decor-2.jpg']
         },
         {
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.7,
             price: 12000,
             description: 'Specializing in candid and artistic photography for weddings and private events.',
-            imageUrl: 'assets/images/photographer-sample2.jpg',
+            imageUrl: 'assets/images/photography.jpg',
             portfolio: ['assets/images/portfolio-5.jpg', 'assets/images/portfolio-6.jpg']
         },
         {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.3,
             price: 900,
             description: 'Authentic local cuisine with a modern twist, perfect for traditional gatherings.',
-            imageUrl: 'assets/images/caterer-sample2.jpg',
+            imageUrl: 'assets/images/caterers.jpg',
             portfolio: ['assets/images/catering-3.jpg', 'assets/images/catering-4.jpg']
         },
         {
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.6,
             price: 18000,
             description: 'Creative and innovative decor solutions for birthdays, anniversaries, and corporate functions.',
-            imageUrl: 'assets/images/decorator-sample2.jpg',
+            imageUrl: 'assets/images/decorators.jpg',
             portfolio: ['assets/images/decor-3.jpg', 'assets/images/decor-4.jpg']
         }
     ];
